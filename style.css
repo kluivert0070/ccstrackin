@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Klasik";
+    src: url(resources/font/Klasik\ Regular.otf);
+}
+@font-face {
+    font-family: "Poppins-Reg";
+    src: url(resources/font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "Poppins-Med";
+    src: url(resources/font/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: "Poppins-SemiB";
+    src: url(resources/font/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(resources/font/Poppins-Bold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fontsize64{
+    font-size: 64px;
+}
+.fontsize36{
+    font-size: 36px;
+}
+.fontsize24{
+    font-size: 24px;
+}
+.fontsize20{
+    font-size: 20px;
+}
+.fontsize15{
+    font-size: 15px;
+}
+.heading1{
+    font-family: "Klasik";
+}
+.heading2{
+    font-family: "Poppins-Bold";
+}
+.par1{
+    font-family: "Poppins-Med";
+}
+
+.btn1{
+    border-radius: 30px;
+    width: 105px;
+    height: 50px;
+    font-family: "Klasik";
+    color: #0E7259;
+    background-color: #17B890;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
